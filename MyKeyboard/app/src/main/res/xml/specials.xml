@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:keyWidth="10%p"
+    android:keyHeight="60dp"
+    android:verticalGap="0px">
+
+    <Row>
+
+        <Key
+            android:keyEdgeFlags="left"
+            android:keyLabel="1" />
+        <Key android:keyLabel="2" />
+        <Key android:keyLabel="3" />
+        <Key android:keyLabel="4" />
+        <Key android:keyLabel="5" />
+        <Key android:keyLabel="6" />
+        <Key android:keyLabel="7" />
+        <Key android:keyLabel="8" />
+        <Key android:keyLabel="9" />
+        <Key
+            android:keyEdgeFlags="right"
+            android:keyLabel="0" />
+
+    </Row>
+
+    <Row>
+
+        <Key
+            android:keyEdgeFlags="left"
+            android:keyLabel="\@" />
+
+        <Key android:keyLabel="\#" />
+        <Key android:keyLabel="\$" />
+        <Key android:keyLabel="\_" />
+        <Key android:keyLabel="\&amp;" />
+        <Key android:keyLabel="\-" />
+        <Key android:keyLabel="\+" />
+        <Key android:keyLabel="\(" />
+        <Key android:keyLabel="\)" />
+        <Key
+            android:keyEdgeFlags="right"
+            android:keyLabel="\/" />
+
+    </Row>
+
+    <Row>
+
+        <Key
+            android:codes="-2"
+            android:keyWidth="18%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="\=\\\&lt;" />
+        <Key android:keyLabel="\*" />
+        <Key android:keyLabel="\&quot;" />
+        <Key android:keyLabel="\'" />
+        <Key android:keyLabel="\:" />
+        <Key android:keyLabel="\;" />
+        <Key android:keyLabel="\!" />
+        <Key android:keyLabel="\?" />
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyWidth="12%p"
+            android:keyEdgeFlags="right"
+            android:keyLabel="\←" />
+
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+
+        <Key
+            android:codes="-6"
+            android:keyWidth="20%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ABC" />
+        <Key
+            android:keyWidth="10%p"
+            android:keyLabel="," />
+        <Key
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyWidth="40%p"
+            android:keyLabel="" />
+        <Key
+            android:keyWidth="10%p"
+            android:keyLabel="." />
+        <Key
+            android:codes="-4"
+            android:keyWidth="20%p"
+            android:keyEdgeFlags="right"
+            android:keyLabel="INTRO" />
+
+    </Row>
+
+</Keyboard>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyKeyboard</string>
+    <string name="texto_main">DAMACE \n https://github.com/damace</string>
+    <string name="button">GUARDAR</string>
+    <string name="my_keyboard">MyKeyboard</string>
+    <string name="subtype_es_CO">Spanish (ES)</string>
+</resources>
