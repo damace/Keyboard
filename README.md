@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Este proyecto no está actualizado.
+
 # Keyboard
 Aplicación móvil para dispositivos Android la cual cuenta con un teclado personalizado con 3 páginas de caracteres como letras, números, símbolos, etc.
 
